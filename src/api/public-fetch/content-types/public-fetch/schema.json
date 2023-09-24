@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "public_fetches",
+  "info": {
+    "singularName": "public-fetch",
+    "pluralName": "public-fetches",
+    "displayName": "publicFetch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "res": {
+      "type": "string"
+    }
+  }
+}

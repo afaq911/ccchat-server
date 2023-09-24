@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "open_ais",
+  "info": {
+    "singularName": "open-ai",
+    "pluralName": "open-ais",
+    "displayName": "Open-Ai"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Pres_pen": {
+      "type": "float"
+    },
+    "freq_pen": {
+      "type": "float"
+    },
+    "key": {
+      "type": "text"
+    },
+    "maxTokens": {
+      "type": "biginteger"
+    },
+    "model": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "text"
+    },
+    "temp": {
+      "type": "float"
+    }
+  }
+}

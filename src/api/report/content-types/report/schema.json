@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reports",
+  "info": {
+    "singularName": "report",
+    "pluralName": "reports",
+    "displayName": "Report",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OrganizationId": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Chat": {
+      "type": "text"
+    },
+    "studentId": {
+      "type": "string"
+    }
+  }
+}
